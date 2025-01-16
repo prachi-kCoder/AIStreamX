@@ -5,9 +5,21 @@ const plugin = require("tailwindcss/plugin");
     content: [
       './pages/**/*.{js,ts,jsx,tsx}',
       './components/**/*.{js,ts,jsx,tsx}',
+      './app/**/*.{js,ts,jsx,tsx}', 
     ],
     theme: {
       extend: {
+        animation: {
+          scroll:
+            "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        },
+        keyframes: {
+          scroll: {
+            to: {
+              transform: "translate(calc(-50% - 0.5rem))",
+            },
+          },
+        },
         colors: {
           color: {
             1: "#AC6AFF",
@@ -76,7 +88,7 @@ const plugin = require("tailwindcss/plugin");
       },
     },
     plugins: [
-      plugin(function ({ addBase, addComponents, addUtilities }) {
+      plugin( function ({ addBase, addComponents, addUtilities }) {
         addBase({});
         addComponents({
           ".container": {
@@ -132,3 +144,5 @@ const plugin = require("tailwindcss/plugin");
       }),
     ],
   };
+
+ 
