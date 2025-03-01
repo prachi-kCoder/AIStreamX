@@ -9,7 +9,8 @@ import dynamic from 'next/dynamic';
 // import {Globe} from "../../components/GridGlobe";
 // const GridGlobe = dynamic(() => import('../../components/GridGlobe'), { ssr: false });
 import GridDemo  from "../../components/GridGlobe";
-
+import Image from "next/image";
+import { smallSphere, stars } from "../../public/assets";
 const heroIcons = [
   "../../HomeIcon.svg", // Path to HomeIcon.svg
   "../../FileIcon.svg", // Path to another icon (add more as needed)
@@ -42,6 +43,26 @@ export default function Dashboard() {
           customPaddings
           id="hero"
         >
+          <div className="container relative z-2">
+        <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
+          <Image
+            src={smallSphere}
+            className="relative z-1"
+            width={255}
+            height={255}
+            alt="Sphere"
+          />
+          <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+            <Image
+              src={stars}
+              className="w-full"
+              width={950}
+              height={400}
+              alt="Stars"
+            />
+          </div>
+        </div>
+        </div>
           <div className="container relative" ref={parallaxRef}>
             {/* Text Section */}
             <div className="relative z-1 max-w-[58rem] mx-auto text-center mb-[3rem] md:mb-16 lg:mb-[5rem]">
@@ -49,8 +70,7 @@ export default function Dashboard() {
                 DEEP DIVE IN AI WORLD
               </h1>
               <p className="body-1 max-w-2xl mx-auto mb-6 text-n-2 lg:mb-8">
-                Unleash the power of AI within Brainwave. Upgrade your productivity
-                with Brainwave, the open AI chat app.
+              NEXUS AI: Your Gateway to the Future of Intelligence – Stay Ahead with Cutting-Edge AI Updates, Innovations, and Deep Insights into AI Agents!
               </p>
               <Button href="/latest" white>
                 Get started
@@ -64,11 +84,11 @@ export default function Dashboard() {
                   <div className="h-[1.2rem] bg-n-10 rounded-t-[0.8rem]" />
                   <div className="aspect-[33/40] rounded-b-[0.8rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                   {/* <GridDemo/> */}
-                    {/* <img
-                      src="/assets/robot.png"
-                      className="w-full h-auto max-h-[280px] mx-auto object-contain scale-[1.1] translate-y-[6%] md:scale-[1] md:-translate-y-[8%] lg:-translate-y-[10%]"
+                    <img
+                      src="/service/photo/DeepSeek.png"
+                      className="w-full h-auto mx-auto object-contain scale-[1.1] translate-y-[6%] md:scale-[1] md:-translate-y-[8%] lg:-translate-y-[10%]"
                       alt="AI"
-                    /> */}
+                    />
                   </div>
                   {/* <Parallax speed={8}>
                     <ul className="absolute -left-[4rem] bottom-[6rem] px-2 py-2 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
@@ -84,7 +104,7 @@ export default function Dashboard() {
             </div>
 
             {/* Visual Elements */}
-            <BackgroundCircles parallaxRef={parallaxRef}/>
+            {/* <BackgroundCircles parallaxRef={parallaxRef}/> */}
             <Gradient />
           </div>
           <BottomLine/>

@@ -1,5 +1,6 @@
 "use client";
 import Section  from "../../components/Section";
+import Header  from "../../components/Header";
 import HotNews from "../../components/HotNews";
 import React from 'react'
 import {BentoGrid, BentoGridItem } from "../../components/BentoGrid"
@@ -8,7 +9,8 @@ import { gridItems } from "../../components/constants";
 const LatestUpdates = () => {
   return (
     <Section>
-      <h2 className="text-n-1 text-center mb-10 text-gray-800 dark:text-white h1 mb-6 dark:text-white text-black leading-snug tracking-wide " >
+      <Header/>
+      <h2 className="text-n-1 text-center text-gray-800 dark:text-white h1 mt-3.5 mb-0.5 dark:text-white text-black leading-snug tracking-wide " >
         Latest Updates
       </h2>
         <BentoGrid className="w-full py-20 px-11">

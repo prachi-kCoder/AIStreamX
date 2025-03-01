@@ -1,3 +1,5 @@
+"use client";
+
 import ButtonSvg from "../public/assets/svg/ButtonSvg";
 import ButtonGradient from "../public/assets/svg/ButtonGradient";
 
