@@ -1,3 +1,5 @@
+"use client";
+
 const ButtonGradient = () => {
   return (
     <svg className="block" width={0} height={0}>

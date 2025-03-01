@@ -267,14 +267,14 @@ export const testimonials = [
     name: "Michael Johnson",
     title: "The Rise of Agent AI 2.0",
     url:"https://www.adweek.com/media/5-ai-trends-2025/",
-    image:"",
+    image:"/public/robot.png",
   },
   {
     quote:
       "The convergence of quantum computing and AI is expected to solve problems beyond classical systems' capabilities, enhancing fields like climate optimization and drug discovery. Google has demonstrated a 70x speedup in AI training through quantum computing, showcasing its potential.",
     name: "news18",
-    title: "https://www.news18.com/business/artificial-intelligence-ai-data-science-trends-in-india-2025-9181670.html",
-    url:"",
+    title: "Quatum World Updates ",
+    url:"https://www.news18.com/business/artificial-intelligence-ai-data-science-trends-in-india-2025-9181670.html",
     image:"",
   },
   {
@@ -303,38 +303,7 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "OPENx",
-    img: "/service/icon/OpenX.svg",
-    nameImg: "/service/icon/OpenX.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+
 
 export const StartUpInfinite = [
     {
@@ -381,3 +350,76 @@ export const StartUpInfinite = [
 
     }
 ];
+
+export const pricing = [
+  {
+    id: "0",
+    title: "Basic",
+    description: "Stay updated with AI-driven news insights",
+    price: "0",
+    features: [
+      "Access to daily AI news and updates .",
+      "Basic AI-curated content recommendations",
+      "Standard news refresh rate & Limited Access to Trending AI Insights",
+    ],
+  },
+  {
+    id: "1",
+    title: "Premium",
+    description: "Unlock advanced AI insights and real-time updates",
+    price: "9.99",
+    features: [
+      "Real-time AI news tracking with instant updates with indepth analysis",
+      "Customizable AI alerts for preferred topics",
+      "Ad-free experience for uninterrupted reading .",
+    ],
+  },
+  {
+    id: "2",
+    title: "Enterprise",
+    description: "Custom AI solutions and deep insights for businesses",
+    price: "20",
+    features: [
+      "Custom AI news feeds tailored to business needs with deep analytics.",
+      "ntegration with internal data sources for AI-powered insights + API access",
+      "Dedicated AI consultant for personalized strategy and implementation.",
+    ],
+  },
+];
+
+export const roadmap = [
+  {
+    id: "0",
+    title: "AI Agent Creation and Customization",
+    text: "Building and customizing AI agents (like chatbots, virtual assistants, or autonomous systems) is a growing field, but many lack the technical know-how and structured guidance to get started.",
+    date: "May 2025",
+    status: "done",
+    imageUrl: "/assets/roadmap/AgenticAiCourse.png",
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: " AI-Powered Productivity for Developers",
+    text: "Integrating AI into development workflows ,code optimization, debugging, and automate repetitive tasks with AI tools.",
+    date: "October 2025",
+    status: "progress",
+    imageUrl: "/assets/roadmap/DevBoostCourse.png",
+  },
+  {
+    id: "2",
+    title: "AI in Digital Marketing and Customer Engagement",
+    text: "Empower your creation journey with AI Assistance ,learn automating ad campaigns with AI , analyse customer behaviour ",
+    date: "June 2025",
+    status: "done",
+    imageUrl: "/assets/roadmap/DigitalMarketCourse.png",
+  },
+  {
+    id: "3",
+    title: "AI for Cybersecurity",
+    text: "Learn using AI to detect and prevent cyber threats & building AI-driven security systems. ",
+    date: "Jan 2026",
+    status: "progress",
+    imageUrl: "/assets/roadmap/CyberSecurity.png",
+  },
+];
+

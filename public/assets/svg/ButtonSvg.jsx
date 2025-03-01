@@ -1,3 +1,5 @@
+"use client";
+
 const ButtonSvg = (white) => (
   <>
     <svg

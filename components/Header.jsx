@@ -33,10 +33,10 @@ const Header = () => {
 
   // Define custom navigation routes
   const navigation = [
-    { id: 1, title: "Home", url: "/" },
-    { id: 2, title: "Updates", url: "/updates" },
-    { id: 3, title: "About", url: "/about" },
-    { id: 4, title: "Contact", url: "/contact" },
+    { id: 1, title: "Home", url: "/dashboard" },
+    { id: 2, title: "Updates", url: "/latest-updates" },
+    { id: 3, title: "Advance", url: "/pricing" },
+    { id: 4, title: "Learn", url: "/learn" },
   ];
   const { asPath } = useRouter();
   return (
@@ -49,7 +49,7 @@ const Header = () => {
         {/* Logo */}
         <Link href="/" className="block w-[15rem] xl:mr-8 flex items-center space-x-2">
           <img src="/assets/brainwave-symbol.svg" width={50} height={20} alt="AiStreamX Logo" />
-          <span className="font-bold text-xl text-white">AI StreamX</span>
+          <span className="font-bold text-xl text-white">NEXUS AI</span>
         </Link>
 
         {/* Navigation Menu */}
