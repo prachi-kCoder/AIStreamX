@@ -1,4 +1,4 @@
-# AIStreamX 
+# NEXUS-AI
 ## Your Gateway to the Latest in AI Trends and Innovations
 Welcome to AIStreamX, an AI-powered platform designed to keep you at the forefront of the rapidly evolving world of artificial intelligence. Whether you're a developer, entrepreneur, or AI enthusiast, AIStreamX ensures that you never miss out on the latest breakthroughs, AI trends, and emerging startups shaping the future of technology.
 
