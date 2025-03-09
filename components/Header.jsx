@@ -3,6 +3,7 @@
 import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import { useState } from "react";
+import { signOut, useSession } from "next-auth/react"; 
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { brainwave } from "../public/assets"; // Adjust this path to your actual assets folder
 import Button from "../components/Button";
@@ -12,6 +13,7 @@ import { HamburgerMenu } from "../public/design/Header";
 const Header = () => {
   const router = useRouter(); // Gets the router object
   const { pathname } = router; // Gets the current path
+  const { data: session } = useSession(); 
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
@@ -76,19 +78,57 @@ const Header = () => {
           </div>
         <HamburgerMenu />
         </nav>
-
-        {/* Signup Button */}
-        <Link
+        
+        {session ? (
+          <div className="flex items-center space-x-4">
+            {/* Profile Button */}
+            <Button className="hidden lg:flex" href="/profile">
+              My Profile
+            </Button>
+            {/* Logout Button */}
+            {/* <button
+              onClick={() => signOut()}
+              className="hidden lg:flex px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
+            >
+              Logout
+            </button> */}
+            <Link
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                signOut();
+              }}
+              className="button hidden mr-8 text-red-500 border border-red-500 transition-colors hover:bg-red-600 hover:text-white lg:block rounded-lg px-6 py-3"
+            >
+              Logout
+            </Link>
+          </div>
+        ) : (
+          <>
+            {/* Signup Button */}
+            <Link
+              href="/signup"
+              className="button hidden mr-9 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+            >
+              New Account
+            </Link>
+            {/* Sign-in Button */}
+            <Button className="hidden lg:flex" href="/login">
+              Start Here
+            </Button>
+          </>
+        )}
+        {/* <Link
           href="/signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+          className="button hidden mr-9 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New Account
         </Link>
 
-        {/* Sign-in Button */}
+  
         <Button className="hidden lg:flex" href="/login">
-          Sign In
-        </Button>
+          Start Here
+        </Button>  */}
 
         {/* Mobile Menu Toggle */}
         <Button

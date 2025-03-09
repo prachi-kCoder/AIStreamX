@@ -5,10 +5,11 @@ import HotNews from "../../components/HotNews";
 import React from 'react'
 import {BentoGrid, BentoGridItem } from "../../components/BentoGrid"
 import { gridItems } from "../../components/constants";
+import Button from "../../components/Button";
 
 const LatestUpdates = () => {
   return (
-    <Section>
+    <Section className="overflow-hidden">
       <Header/>
       <h2 className="text-n-1 text-center text-gray-800 dark:text-white h1 mt-3.5 mb-0.5 dark:text-white text-black leading-snug tracking-wide " >
         Latest Updates
@@ -28,6 +29,9 @@ const LatestUpdates = () => {
             />
           ))}
       </BentoGrid>
+      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+              <Button href="/news">Need More!</Button>
+            </div>
       <div className="px-11">
         <HotNews/>
       </div>

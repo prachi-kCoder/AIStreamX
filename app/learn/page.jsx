@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import Button from "../../components/Button";
 import Heading from "../../components/Heading";
 import Section from "../../components/Section";
@@ -66,6 +67,11 @@ const Roadmap = () => (
                   </div>
                   <h4 className="h4 mb-4">{item.title}</h4>
                   <p className="body-2 text-n-4">{item.text}</p>
+                  <div className="flex justify-center mt-6">
+                    <Link href={`/course/${item.id}`}>
+                      <Button>Dive Deep</Button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -76,7 +82,7 @@ const Roadmap = () => (
       </div>
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/learn">Our roadmap</Button>
+        <Button href="/learn">Let's start</Button>
       </div>
     </div>
   </Section>
