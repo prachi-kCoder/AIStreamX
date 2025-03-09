@@ -2,27 +2,17 @@
 import React from "react";
 import Section from "../../components/Section";
 import Benefits from "../../components/Benefits";
+
 import Button from "../../components/Button";
 import  {Gradient,BottomLine,BackgroundCircles}  from "../../public/design/Hero";
 import Innovations from "../../components/Innovations";
 import dynamic from 'next/dynamic';
-// import {Globe} from "../../components/GridGlobe";
-// const GridGlobe = dynamic(() => import('../../components/GridGlobe'), { ssr: false });
-import GridDemo  from "../../components/GridGlobe";
+
 import Image from "next/image";
 import { smallSphere, stars } from "../../public/assets";
-const heroIcons = [
-  "../../HomeIcon.svg", // Path to HomeIcon.svg
-  "../../FileIcon.svg", // Path to another icon (add more as needed)
-  "../../PlusIcon.svg", // Example of another icon
-  "../../SearchIcon.svg", // Add other icons here
-];
 
-import { Parallax } from "react-scroll-parallax";
 import { useRef } from "react";
 
-// import robot from "../../public/assets";
-import {heroBackground} from "../../public/assets";
 import Header from "../../components/Header";
 export default function Dashboard() {
   const parallaxRef = useRef(null);
@@ -112,12 +102,7 @@ export default function Dashboard() {
         <Benefits/>
         <Innovations/>
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-4 mt-10">
-        <div className="container mx-auto px-6 text-center">
-          <p>&copy; {new Date().getFullYear()} MyDashboard. All rights reserved.</p>
-        </div>
-      </footer>
+      
     </div>
   
   );

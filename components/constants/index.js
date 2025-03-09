@@ -7,6 +7,7 @@ export const benefits = [
       backgroundUrl: "./assets/benefits/card-1.svg",
       iconUrl: "/service/icon/perplexity.svg",
       imageUrl: "/service/photo/aiSeriveBackGround.jpg",
+      visitLink: "https://www.perplexity.ai/",
     },
     {
       id: "2",
@@ -16,6 +17,7 @@ export const benefits = [
       iconUrl: "/service/icon/Apollo.jpg",
       imageUrl: "/service/photo/aiSeriveBackGround.jpg",
       light: true,
+      visitLink: "https://www.apollo.io/",
     },
     {
       id: "3",
@@ -24,23 +26,26 @@ export const benefits = [
       backgroundUrl: "/assets/benefits/card-3.svg",
       iconUrl: "/service/icon/Claude.svg",
       imageUrl: "/service/photo/aiSeriveBackGround.jpg",
+      visitLink: "https://claude.ai/",
     },
     {
       id: "4",
       title: "NotebookLM",
       text: "This AI tool specializes in organizing and summarizing notes,making it ideal for students and professionals seeking efficient information management",
       backgroundUrl: "/assets/benefits/card-4.svg" ,
-      iconUrl: "/service/icon/NoteBookLMLogo.png",
+      iconUrl: "/service/icon/NBLMlogo.png",
       imageUrl: "/service/photo/aiSeriveBackGround.jpg",
       light: true,
+      visitLink: "https://notebooklm.google",
     },
     {
       id: "5",
       title: "ElevenLabs",
       text: "Known for its innovative voice generation capabilities, ElevenLabs allows users to create personalized voices based on social media profiles.",
       backgroundUrl: "/assets/benefits/card-5.svg",
-      iconUrl: "/service/icon/ElevenLabs.jpg",
+      iconUrl: "/service/icon/ElevenLabLogo.png",
       imageUrl: "/service/photo/aiSeriveBackGround.jpg",
+      visitLink: "https://elevenlabs.io",
     },
     {
       id: "6",
@@ -49,6 +54,7 @@ export const benefits = [
       backgroundUrl: "/assets/benefits/card-6.svg",
       iconUrl: "/service/icon/heyGen.svg",
       imageUrl: "/service/photo/aiSeriveBackGround.jpg",
+      visitLink: "https://www.heygen.com",
     },
   ];
 
@@ -145,12 +151,12 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "OpenAI Introduces Sora Turbo",
-    description: "Sora Turbo: OpenAI's revolutionary AI tool that transforms text prompts into stunning high-definition videos in seconds!",
+    title: "Cursor AI Raises $105M for AI-Powered Coding",
+    description: "Cursor AI, the innovative code editor, is transforming software development with AI-power & promising faster, smarter coding solutions",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-40 ",
     titleClassName: "justify-start",
-    img: "/service/photo/SoraOpenAi.svg",
+    img: "/service/icon/cursor.svg",
     spareImg: "",
   },
   {
@@ -423,3 +429,148 @@ export const roadmap = [
   },
 ];
 
+export const socials = [
+  {
+    id: 0,
+    title: "Discord",
+    iconUrl: "/assets/socials/discord.svg",
+    url: "#",
+  },
+  {
+    id: 1,
+    title: "Twitter",
+    iconUrl:"/assets/socials/twitter.svg",
+    url: "#",
+  },
+  {
+    id: 2,
+    title: "Instagram",
+    iconUrl: "/assets/socials/instagram.svg",
+    url: "#",
+  },
+  {
+    id: 3,
+    title: "Telegram",
+    iconUrl: "/assets/socials/telegram.svg",
+    url: "#",
+  },
+  {
+    id: 4,
+    title: "Facebook",
+    iconUrl: "/assets/socials/facebook.svg",
+    url: "#",
+  },
+];
+
+export const professionalSuggestions = [
+  {
+    profession: "Doctor",
+    suggestions: [
+      "Use AI for medical diagnosis assistance",
+      "Implement AI-based appointment scheduling",
+      "Enhance patient care with AI chatbots",
+    ],
+    tools: ["IBM Watson Health", "Ada Health AI", "Zebra Medical Vision"],
+  },
+  {
+    profession: "Software Engineer",
+    suggestions: [
+      "Use AI-driven code completion tools",
+      "Automate repetitive tasks using AI",
+      "Enhance debugging with AI suggestions",
+    ],
+    tools: ["GitHub Copilot", "Tabnine", "DeepCode"],
+  },
+];
+
+export const courseDetails = {
+  "0": {
+    title: "AI Agent Creation and Customization",
+    description: "Master AI agent development & customization with hands-on learning.",
+    imageUrl: "/assets/roadmap/AgenticAiCourse.png",
+    roadmap: [
+      {
+        id: "genai",
+        step: "Foundation of GenAI",
+        description: "Understanding Generative AI capabilities & real-world applications.",
+      },
+      {
+        id: "experiment",
+        step: "Experiment AI Capabilities",
+        description: "Generate text, images, and music while understanding LLMs & models like GPT-4.",
+      },
+      {
+        id: "agents",
+        step: "Advanced AI Agents",
+        description: "Explore AutoGPT, CrewAI, BABYAGI, and DevinAI in depth.",
+      },
+      {
+        id: "prompt",
+        step: "Master Prompt Engineering",
+        description: "Optimize AI interactions for efficiency and accuracy.",
+      },
+      {
+        id: "langchain",
+        step: "Explore LangChain & RAG",
+        description: "Learn retrieval-augmented generation and its use in AI applications.",
+      },
+    ],
+  },
+  "1": {
+    title: "AI-Powered Productivity for Developers",
+    description: "Enhance development workflows with AI-powered tools and automation.",
+    imageUrl: "/assets/roadmap/DevBoostCourse.png",
+    roadmap: [
+      { id: "ai-code", step: "AI for Code Optimization", description: "Refactor and debug with AI." },
+      { id: "ai-debug", step: "AI for Debugging", description: "Speed up bug resolution with AI." },
+    ],
+  },
+};
+export const prevcourseDetails = {
+  0: {
+    title: "AI Agent Creation and Customization",
+    roadmap: [
+      {
+        step: "Foundation of GenAI",
+        description: "Understanding Generative AI capabilities & real-world applications.",
+      },
+      {
+        step: "Experiment AI Capabilities",
+        description: "Generate text, images, and music while understanding LLMs & models like GPT-4.",
+      },
+      {
+        step: "Advanced AI Agents",
+        description: "Explore AutoGPT, CrewAI, BABYAGI, and DevinAI in depth.",
+      },
+      {
+        step: "Master Prompt Engineering",
+        description: "Optimize AI interactions for efficiency and accuracy.",
+      },
+      {
+        step: "Explore LangChain & RAG",
+        description: "Learn retrieval-augmented generation and its use in AI applications.",
+      },
+      {
+        step: "Learn Agentic Design Patterns",
+        description: "Discover best practices for AI agent design.",
+      },
+      {
+        step: "Build Advanced AI Systems",
+        description: "Hands-on projects for integrating AI into real-world applications.",
+      },
+      {
+        step: "Showcase Skills",
+        description: "Build a portfolio and showcase projects.",
+      },
+    ],
+    imageUrl: "/assets/roadmap/AgenticAiCourse.png",
+  },1: {
+    title: "AI-Powered Productivity for Developers",
+    description: "Enhance development workflows with AI-powered tools and automation.",
+    imageUrl: "/assets/roadmap/DevBoostCourse.png",
+    roadmap: [
+      { id: "ai-code", step: "AI for Code Optimization", description: "Refactor and debug with AI." },
+      { id: "ai-debug", step: "AI for Debugging", description: "Speed up bug resolution with AI." },
+    ],
+  },
+};
