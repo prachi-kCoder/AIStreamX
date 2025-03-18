@@ -106,7 +106,7 @@ import { courseDetails } from "../../../components/constants";
 const CoursePage = () => {
   const { id } = useParams();
   const course = courseDetails[id];
-
+  console.log("id : ",id);
   if (!course) {
     return <div className="text-center text-red-500">Course Not Found</div>;
   }
