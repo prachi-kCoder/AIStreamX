@@ -547,7 +547,7 @@ export const prevcourseDetails = {
         description: "Optimize AI interactions for efficiency and accuracy.",
       },
       {
-        step: "Explore LangChain & RAG",
+        step: "Explore LangChain And RAG",
         description: "Learn retrieval-augmented generation and its use in AI applications.",
       },
       {
@@ -574,3 +574,168 @@ export const prevcourseDetails = {
     ],
   },
 };
+
+
+export const taskDetails = {
+  "foundation-of-genai": {
+    title: "Foundation of GenAI",
+    description: "Understanding Generative AI capabilities & real-world applications.",
+    imageUrl: "/courses/agentic/AIEvolution.png",
+    content: [
+      {
+        title: "What is Generative AI?",
+        detail: "Generative AI refers to models that create content such as text, images, and music by learning from vast datasets. These models use complex algorithms to generate new data that resembles existing data, enabling applications like text-to-image synthesis, music composition, and automated content creation.",
+        image: "/courses/agentic/GenAi.png",
+        extendedDetail: "Recent advancements in Generative AI have led to significant improvements in model efficiency and output quality. For instance, models like DALL-E and Stable Diffusion have revolutionized image generation, allowing users to create realistic images from simple text prompts. This technology has numerous applications in advertising, art, and design, making it a fascinating area for learners to explore.",
+      },
+      {
+        title: "Evolution of AI models",
+        detail: "AI models have evolved significantly from rule-based systems to deep learning, transformers, and large language models like GPT-4. This evolution has enabled AI to perform tasks that were previously unimaginable, such as understanding natural language and generating coherent text.",
+        image: "/courses/agentic/AIEvolution.png",
+        extendedDetail: "The evolution of AI models has been rapid and transformative. The transition from deep learning to transformers has improved AI's ability to process sequential data, leading to breakthroughs in NLP. Large language models like GPT-4 have further pushed the boundaries by demonstrating human-like understanding and generation capabilities. Learners can explore these advancements to gain insights into how AI is becoming increasingly sophisticated.",
+      },
+      {
+        title: "Understanding Neural Networks & Transformers",
+        detail: "Neural networks are computational models inspired by the human brain, capable of learning from data and improving over time. Transformers, a type of neural network, have revolutionized natural language processing (NLP) by enabling models to understand context and generate coherent text.",
+        image: "/courses/agentic/NeuralNet.png",
+        extendedDetail: "Neural networks and transformers are foundational components of modern AI. Recent research has focused on improving transformer architectures, leading to models like BERT and RoBERTa, which have set new benchmarks in NLP tasks. Understanding these concepts is crucial for learners as it provides a solid foundation for exploring more advanced AI applications and developing innovative solutions.",
+      },
+      {
+        title: "Use cases in different industries",
+        detail: "Generative AI is transforming various industries such as healthcare, finance, education, and more. It enables automation, creativity, and innovation by generating personalized content, predicting outcomes, and automating repetitive tasks.",
+        image: "/courses/agentic/AiUsage.png",
+        extendedDetail: "The impact of Generative AI across industries is profound. In healthcare, AI can generate personalized treatment plans and predict patient outcomes. In finance, AI helps automate trading and risk assessment. In education, AI can create customized learning materials and assist in grading. Learners can explore these use cases to understand how AI is revolutionizing traditional sectors and creating new opportunities.",
+      },
+      {
+        title: "Core Components of AI",
+        detail: "The foundation of AI includes data and knowledge representation, algorithms, statistics and mathematics, neuroscience and cognitive science, and philosophy and ethics. These components work together to enable AI systems to learn, reason, and adapt.",
+        image: "/courses/agentic/AiComponents.png",
+        extendedDetail: "Understanding the core components of AI is essential for learners to appreciate the complexity and potential of AI systems. Recent advancements in data representation and algorithms have improved AI's ability to learn from diverse datasets. Additionally, ethical considerations are becoming increasingly important as AI integrates into daily life, ensuring that AI systems are fair, transparent, and beneficial to society.",
+      },
+      {
+        title: "Importance of AI",
+        detail: "AI is crucial for enhancing productivity, judgment, and quality of life. It offers solutions that can revolutionize entire sectors by providing insights, automating tasks, and improving decision-making processes.",
+        image: "/courses/agentic/AiImportance.png",
+        extendedDetail: "The importance of AI cannot be overstated. As AI continues to advance, it is transforming how businesses operate, how governments make decisions, and how individuals live their lives. Learners who understand AI's potential can contribute to developing solutions that address global challenges and improve societal outcomes. By exploring AI's applications and implications, learners can gain a deeper appreciation for its transformative power.",
+      },
+    ],
+  },
+  "experiment-ai-capabilities": {
+    title: "Experiment with AI Capabilities",
+    detail: "Exploring and experimenting with AI capabilities is essential for understanding its potential and limitations. Here are some ways to experiment with AI applications and APIs.",
+    imageUrl: "/courses/agentic/AiExpApp.png",
+    content: [
+      {
+        title: "Large Language Models (LLMs)",
+        detail: "Experiment with LLMs like GPT-4, Claude, or Llama to generate text, answer questions, and engage in conversations. These models can be accessed through platforms like OpenAI, Anthropic, or Meta.",
+        image: "/courses/agentic/AiLLM.jpg",
+        extendedDetail: "Large language models have revolutionized text generation and conversation. Recent models like GPT-4 offer unprecedented capabilities in understanding and generating human-like text. Learners can experiment with these models to explore their potential in content creation, customer service, and education. By understanding the strengths and limitations of LLMs, learners can develop innovative applications that leverage AI's language capabilities.",
+      },
+      {
+        title: "Image Generation",
+        detail: "Use AI tools like DALL-E or Midjourney to generate images from text prompts. These tools can create realistic images, artwork, and even videos.",
+        image: "/courses/agentic/ImgGen.jpg",
+        extendedDetail: "AI image generation has become incredibly sophisticated, allowing users to create stunning visuals with ease. Models like DALL-E and Stable Diffusion have opened up new possibilities in art, design, and advertising. Learners can experiment with these tools to explore their creative potential and understand how AI is changing the visual content landscape. By combining text and image generation, learners can develop unique multimedia projects that showcase AI's capabilities.",
+      },
+      {
+        title: "Music Generation",
+        detail: "Experiment with AI music generators like AIVA, SoundGen, or BandLab to create music tracks. These tools allow you to input parameters like genre, tempo, and mood to generate unique music.",
+        image: "/courses/agentic/VideoGen.jpg",
+        extendedDetail: "AI music generation is transforming the music industry by enabling artists and non-artists alike to create music with ease. Recent advancements in AI music tools have improved the quality and diversity of generated music, making it suitable for various applications from film scores to personal playlists. Learners can explore these tools to understand how AI is democratizing music creation and to develop their own musical projects.",
+      },
+      {
+        title: "AI APIs and Providers",
+        detail: "Explore AI APIs from providers like OpenAI, Groq, Cohere, and others. These APIs offer access to various AI models and capabilities, allowing you to integrate AI into your projects.",
+        image: "/courses/agentic/ApiModel.jpeg",
+        extendedDetail: "AI APIs have made it easier for developers to integrate AI capabilities into their applications. Providers like OpenAI, Groq, and Cohere offer a range of models and tools that can be accessed programmatically, enabling learners to build innovative projects that leverage AI's power. By experimenting with these APIs, learners can develop hands-on experience with AI integration and explore new applications across different industries.",
+      },
+      {
+        title: "Project Ideas",
+        detail: "Formulate projects using AI APIs to automate tasks, generate content, or solve problems. For example, you can build a chatbot, create personalized content, or develop predictive models.",
+        image: "/courses/agentic/ProjectAi.jpg",
+        extendedDetail: "Developing projects with AI APIs allows learners to apply theoretical knowledge in practical scenarios. By formulating projects that automate tasks or generate content, learners can explore AI's potential to solve real-world problems. For instance, building a chatbot can help learners understand how AI can improve customer service, while creating personalized content can demonstrate AI's role in enhancing user experiences. These projects provide valuable hands-on experience and help learners develop innovative solutions.",
+      },
+      {
+        title: "Hands-on Learning",
+        detail: "Engage in hands-on learning by experimenting with AI tools and APIs. This practical experience will help you understand AI's capabilities and limitations, preparing you for real-world applications.",
+        image: "/courses/agentic/LLMs.png",
+        extendedDetail: "Hands-on learning is crucial for mastering AI concepts and understanding their practical implications. By experimenting with AI tools and APIs, learners can gain firsthand experience with AI's potential and limitations. This approach helps learners develop problem-solving skills, think creatively about AI applications, and prepare for careers in AI and related fields. Through hands-on projects, learners can also identify areas where AI can be improved or expanded, contributing to future advancements in the field.",
+      },
+    ],
+  },"advanced-ai-agents": {
+    title: "Advanced AI Agents",
+    description: "Learn about autonomous AI agents, their capabilities, and practical applications across industries.",
+    imageUrl: "/courses/agentic/AI_Agents.png",
+    content: [
+      {
+        title: "Introduction to AI Agents",
+        detail: "AI agents are intelligent computer programs that can make decisions and take actions autonomously. They collect data, decide on the most appropriate action, and execute it to achieve specific goals without human intervention. Recent advancements have led to AI agents being classified into categories like simple reflex, modular-based reflex, goal-based, utility-based, and learning agents.",
+        image: "/courses/agentic/AI_Agent_Intro.png",
+        extendedDetail: "AI agents are revolutionizing industries by automating complex tasks. For instance, in sales and marketing, AI agents like Chatsimple’s AI sales agent engage visitors with personalized responses, qualifying leads and saving data directly to CRM systems[1]. In finance, AI agents monitor transactions, detect fraud, and provide personalized investment advice, as seen with PayPal’s AI-powered assistant[1]."
+      },
+      {
+        title: "Applications Across Industries",
+        detail: "AI agents are transforming various sectors such as healthcare, manufacturing, automotive, and logistics. They improve patient care, predict machine failures, optimize delivery routes, and enhance customer experiences.",
+        image: "/courses/agentic/AI_Agent_Applications.png",
+        extendedDetail: "In healthcare, AI agents assist in diagnosis and drug discovery, such as IBM’s Watsonx AI assistant[1]. In manufacturing, AI agents optimize inventory management and predict machine failures, as demonstrated by Glide’s AI solutions[1]. The automotive industry uses AI agents in self-driving vehicles and voice-activated controls, like Tesla and Mercedes-Benz’s MBUX system[1]."
+      },
+      {
+        title: "Building Your Own AI Agent",
+        detail: "Learn how to design and deploy AI agents using frameworks like LangChain or OpenAI APIs. These frameworks enable agents to interact with external tools and data sources, making them capable of handling complex tasks.",
+        image: "/courses/agentic/Build_AI_Agent.png",
+        extendedDetail: "LangChain simplifies building modular AI agents by integrating LLMs with external tools. Learners can create agents for tasks such as customer support or data analysis by combining retrieval-augmented generation (RAG) with generative models. For example, using LangChain, you can build an agent that retrieves relevant documents and generates responses based on that information[3]."
+      }
+    ]
+  },
+  "master-prompt-engineering": {
+    title: "Master Prompt Engineering",
+    description: "Develop expertise in crafting effective prompts to maximize the performance of generative AI models.",
+    imageUrl: "/courses/agentic/PromptEngineering.png",
+    content: [
+      {
+        title: "Introduction to Prompt Engineering",
+        detail: "Prompt engineering involves creating structured queries that guide language models to generate specific types of responses. These queries can range from simple questions to complex instructions, enhancing the model's ability to reason and provide accurate outputs.",
+        image: "/courses/agentic/Prompt_Intro.png",
+        extendedDetail: "Effective prompt engineering is crucial for optimizing AI interactions. It involves understanding the AI model's capabilities and limitations to craft prompts that yield contextually relevant responses. For instance, techniques like chain-of-thought prompting improve model reasoning, while persona-based patterns enhance contextual understanding[4]."
+      },
+      {
+        title: "Advanced Techniques in Prompt Engineering",
+        detail: "Explore advanced methods like tree-of-thought approaches, controlling verbosity, and contextual optimization. These techniques improve the model's ability to explore multiple reasoning paths and generate concise outputs tailored to specific use cases.",
+        image: "/courses/agentic/Prompt_Advanced.png",
+        extendedDetail: "Techniques such as tree-of-thought prompting enable models to explore multiple reasoning paths before generating a response. Controlling verbosity ensures concise outputs, making it suitable for applications like creative writing or coding assistance. Learners can apply these techniques in projects involving personalized content generation or technical support[4]."
+      },
+      {
+        title: "Applications of Prompt Engineering",
+        detail: "Prompt engineering powers applications such as content generation, code creation, summarization, and contextual Q&A. It enhances user experience by making AI interactions more intuitive and efficient.",
+        image: "/courses/agentic/Prompt_Applications.png",
+        extendedDetail: "Industries like e-commerce use prompt engineering for personalized recommendations, while healthcare leverages it for diagnostic chatbots. Learners can practice by designing prompts for real-world scenarios using platforms like Hugging Face or OpenAI APIs. This skill is highly valued, with prompt engineers being in demand across tech companies and startups[5]."
+      }
+    ]
+  },
+  "explore-langchain-and-rag": {
+    title: "Explore LangChain & RAG",
+    description: "Dive into Retrieval-Augmented Generation (RAG) and LangChain to build smarter AI applications that leverage external data.",
+    imageUrl: "/courses/agentic/LangChain_RAG.png",
+    content: [
+      {
+        title: "What is RAG?",
+        detail: "Retrieval-Augmented Generation combines generative AI with information retrieval for accurate, data-driven responses. It solves the limitations of static language models by integrating real-time data retrieval.",
+        image: "/courses/agentic/RAG_Intro.png",
+        extendedDetail: "RAG is particularly useful in applications where up-to-date information is crucial, such as customer support chatbots or research assistants. By integrating retrieval mechanisms with generative models, RAG enables AI systems to provide more accurate and relevant outputs. Learners can implement RAG using frameworks like LangChain to build intelligent systems that adapt dynamically to user queries[3]."
+      },
+      {
+        title: "LangChain Framework Overview",
+        detail: "LangChain simplifies building modular applications by connecting LLMs with external data sources and APIs. It supports building intelligent systems that adapt dynamically to user queries.",
+        image: "/courses/agentic/LangChain_Overview.png",
+        extendedDetail: "LangChain provides tools for document retrieval, embeddings, chains, and memory management. It enables learners to create agents that can retrieve relevant documents, generate responses based on that information, and even collaborate with other agents to solve complex problems[3]."
+      },
+      {
+        title: "Use Cases of LangChain & RAG",
+        detail: "Discover how LangChain & RAG are used in intelligent search engines, personalized chatbots, research assistance, and dynamic content creation.",
+        image: "/courses/agentic/LangChain_UseCases.png",
+        extendedDetail: "For example, Google Cloud's Contact Center AI integrates RAG for real-time customer support. Research assistants use it to retrieve and summarize papers quickly. Learners can explore these examples by building projects that combine retrieval mechanisms with generative models to create innovative applications[3]."
+      }
+    ]
+  }
+};
+
