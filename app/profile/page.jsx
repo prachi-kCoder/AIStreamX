@@ -18,15 +18,41 @@ const Profile = () => {
   const [hours, setHours] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [tools, setTools] = useState([]);
+  const [activities, setActivities] = useState([]);
+  const [loading, setLoading] = useState(true);
 
+  // useEffect(() => {
+  //   console.log("Session Data:", session);
+  //   console.log("Session Status:", status);
+
+  //   if (status === "unauthenticated") {
+  //     router.replace("/login");
+  //   }
+  // }, [status, router, session]);
   useEffect(() => {
-    console.log("Session Data:", session);
-    console.log("Session Status:", status);
+    if (status === "authenticated" && session?.user?.id) {
+      const userId = encodeURIComponent(session.user.id); // ✅ Prevents URL errors
+      console.log("🔍 Fetching activities for user:", userId); // ✅ Debugging
 
-    if (status === "unauthenticated") {
-      router.replace("/login");
+      fetch(`/api/track?userId=${userId}`)
+        .then(async (res) => {
+          if (!res.ok) {
+            throw new Error(`HTTP error! Status: ${res.status}`);
+          }
+          return res.json();
+        })
+        .then((data) => {
+          console.log("✅ Fetched activities:", data);
+          setActivities(data.activities || []);
+          setLoading(false);
+        })
+        .catch((err) => {
+          console.error("❌ Error fetching activities:", err);
+          setError(err.message);
+          setLoading(false);
+        });
     }
-  }, [status, router, session]);
+  }, [session, status]);
 
   const handleLogout = async () => {
     await signOut({ redirect: false });
@@ -57,6 +83,22 @@ const Profile = () => {
           <Tagline>
             <Heading title={`Welcome, ${session?.user?.email || "User"}!`} text="AI is your friend. Let’s work together and boost your efficiency!" />
           </Tagline>
+          <h3 className="text-lg font-semibold mt-6">Your Activity History</h3>
+        <ul className="mt-4 space-y-3 bg-gray-800 p-4 rounded-lg">
+          {activities.length > 0 ? (
+            activities.map((activity, index) => (
+              <li key={index} className="p-3 border border-gray-600 rounded-lg">
+                <strong>{activity.type}:</strong> {JSON.stringify(activity.data)}
+                <br />
+                <span className="text-gray-400 text-xs">
+                  {new Date(activity.timestamp).toLocaleString()}
+                </span>
+              </li>
+            ))
+          ) : (
+            <p className="text-gray-500">No activity recorded yet.</p>
+          )}
+        </ul>
 
           <div className="flex flex-col lg:flex-row gap-10 mt-10">
             

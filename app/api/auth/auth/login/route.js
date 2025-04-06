@@ -25,13 +25,6 @@ export async function POST(req) {
       return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
     }
 
-    // Generate a JWT token
-    // const token = await getToken({
-    //   req,
-    //   secret: process.env.NEXTAUTH_SECRET,
-    //   token: { id: user._id, email: user.email },
-    // });
-
     // const response = NextResponse.json({ message: "Login successful", success: true });
     const result = await signIn("credentials", {
       redirect: false, // Important: Prevent auto-redirects
@@ -43,8 +36,12 @@ export async function POST(req) {
       return NextResponse.json({ error: "Login failed" }, { status: 401 });
     }
 
-    const response = NextResponse.json({ message: "Login successful", success: true });
-    
+    // const response = NextResponse.json({ message: "Login successful", success: true });
+    const response = NextResponse.json({ 
+      message: "Login successful", 
+      success: true, 
+      userId: user._id // Send userId back for frontend tracking
+    });
     
     let cookiesStore  = await cookies();
     cookiesStore.set("token", token, {
@@ -62,3 +59,11 @@ export async function POST(req) {
     return NextResponse.json({ error: "Login failed" }, { status: 500 });
   }
 }
+
+
+    // Generate a JWT token
+    // const token = await getToken({
+    //   req,
+    //   secret: process.env.NEXTAUTH_SECRET,
+    //   token: { id: user._id, email: user.email },
+    // });
