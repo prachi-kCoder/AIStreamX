@@ -19,6 +19,8 @@
 
 # production
 /build
+# fastapi 
+/server/venv
 
 # misc
 .DS_Store

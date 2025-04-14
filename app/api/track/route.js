@@ -2,17 +2,7 @@ import { connectToDB } from "../../../lib/dbConfig";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../auth/[...nextauth]/options";
 import mongoose from "mongoose";
-
-// Define schema for tracking user activities
-const activitySchema = new mongoose.Schema({
-  userId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
-  type: String,
-  data: Object,
-  timestamp: { type: Date, default: Date.now },
-});
-
-// Create the model (only if not already created)
-const Activity = mongoose.models.Activity || mongoose.model("Activity", activitySchema);
+import Activity from "../../../models/activity"; 
 
 export async function POST(req) {
   try {
@@ -27,7 +17,9 @@ export async function POST(req) {
 
     // ✅ Parse request body
     const body = await req.json();
-
+    if (!body.userId || typeof body.userId !== "string") {
+      return res.status(400).json({ error: "Invalid userId" });
+    }
     // ✅ Store activity data
     const activity = new Activity({
       userId: session.user.id, 

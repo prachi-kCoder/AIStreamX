@@ -1,0 +1,596 @@
+{
+  "ActiveCampaign": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Excellent customer support."
+  },
+  "Ada Support": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Highly recommended!"
+  },
+  "Adobe Acrobat": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Poor performance on mobile."
+  },
+  "Adobe Premiere": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Lacked integrations with other tools."
+  },
+  "Alitu": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Advanced features were lacking."
+  },
+  "Anchor": {
+    "category": "Social audio apps",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Improved my productivity."
+  },
+  "Around": {
+    "category": "Meeting software",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Very accurate results."
+  },
+  "Asana": {
+    "category": "Issue tracking software",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Poor performance on mobile."
+  },
+  "Audacity": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Did not meet my expectations."
+  },
+  "Beautiful.ai": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Crashed frequently."
+  },
+  "Buffer": {
+    "category": "Twitter apps",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Too many bugs."
+  },
+  "Canva": {
+    "category": "Photo editing",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Intuitive design."
+  },
+  "CapCut": {
+    "category": "Video editing",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Easy to use interface."
+  },
+  "Casetext": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Excellent customer support."
+  },
+  "Chatfuel": {
+    "category": "AI sales tools",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Too many bugs."
+  },
+  "ClickUp": {
+    "category": "Customer Relationship Platform",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Excellent customer support."
+  },
+  "Codeium": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Lacked integrations with other tools."
+  },
+  "ConvertKit": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Loved AI assistance!"
+  },
+  "Copy.ai": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "AI suggestions were great!"
+  },
+  "DALL\u00b7E": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Easy to use interface."
+  },
+  "DaVinci Resolve": {
+    "category": "Video editing",
+    "avg_rating": 4.8,
+    "avg_efficiency": 46,
+    "feedback_sample": "Saved a lot of time!"
+  },
+  "DeepL": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Would like more tutorials."
+  },
+  "Descript": {
+    "category": "AI Voice Agents",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Improved my productivity."
+  },
+  "DoNotPay": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Needed more customization options."
+  },
+  "Evernote": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Too many bugs."
+  },
+  "Falcon.io": {
+    "category": "Social media management tools",
+    "avg_rating": 4.8,
+    "avg_efficiency": 46,
+    "feedback_sample": "Saved a lot of time!"
+  },
+  "Filmic Pro": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "I would recommend this to a friend."
+  },
+  "Firefly": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Advanced features were lacking."
+  },
+  "Fitbit": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Excellent customer support."
+  },
+  "Forethought": {
+    "category": "Customer support tools",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Easy to use interface."
+  },
+  "Gamma.ai": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Did not meet my expectations."
+  },
+  "GetResponse": {
+    "category": "Email clients",
+    "avg_rating": 4.8,
+    "avg_efficiency": 46,
+    "feedback_sample": "Excellent customer support."
+  },
+  "GitHub Copilot": {
+    "category": "NLP LLMs",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Did not meet my expectations."
+  },
+  "Google Analytics": {
+    "category": "Website analytics",
+    "avg_rating": 4.8,
+    "avg_efficiency": 46,
+    "feedback_sample": "Advanced features were lacking."
+  },
+  "Google Meet": {
+    "category": "Video conferencing",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Too many bugs."
+  },
+  "Google Translate": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Confusing documentation."
+  },
+  "Grammarly": {
+    "category": "Writing assistants",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Saved a lot of time!"
+  },
+  "Headspace": {
+    "category": "Mental Health",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Great for specific tasks."
+  },
+  "Hootsuite": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Did not meet my expectations."
+  },
+  "Intercom": {
+    "category": "AI ChatbotsAI",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Highly recommended!"
+  },
+  "Jasper AI": {
+    "category": "Video hosting platforms",
+    "avg_rating": 4.8,
+    "avg_efficiency": 46,
+    "feedback_sample": "Excellent customer support."
+  },
+  "Jira": {
+    "category": "Issue tracking software",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "I would recommend this to a friend."
+  },
+  "Kapwing": {
+    "category": "Video editing",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Crashed frequently."
+  },
+  "Krisp": {
+    "category": "Video conferencing",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Needed more customization options."
+  },
+  "Later": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Needed more customization options."
+  },
+  "LawGeex": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Lacked integrations with other tools."
+  },
+  "Lensa": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Advanced features were lacking."
+  },
+  "Leonardo AI": {
+    "category": "Photo editing",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Improved my productivity."
+  },
+  "Linguee": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Too slow for my workflow."
+  },
+  "Looker": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Confusing documentation."
+  },
+  "Luminance": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Highly recommended!"
+  },
+  "Mailchimp": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Intuitive design."
+  },
+  "Mem.ai": {
+    "category": "AI notetakers",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "I would recommend this to a friend."
+  },
+  "Microsoft Teams": {
+    "category": "Messaging apps",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Loved AI assistance!"
+  },
+  "MidJourney": {
+    "category": "Design inspiration websites",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Very accurate results."
+  },
+  "Mint": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 47,
+    "feedback_sample": "Crashed frequently."
+  },
+  "Mode Analytics": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Very accurate results."
+  },
+  "ModernMT": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Great for specific tasks."
+  },
+  "Monarch Money": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Did not meet my expectations."
+  },
+  "Monday.com": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Confusing documentation."
+  },
+  "Mutable.ai": {
+    "category": "Unified API",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Not useful for my task."
+  },
+  "MyFitnessPal": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Great for beginners."
+  },
+  "Noom": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Lacked integrations with other tools."
+  },
+  "Notion": {
+    "category": "Project Management",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Too slow for my workflow."
+  },
+  "Obsidian": {
+    "category": "Note and writing apps",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Intuitive design."
+  },
+  "Otter.ai": {
+    "category": "AI notetakers",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Helped with collaboration."
+  },
+  "PDFelement": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "AI suggestions were great!"
+  },
+  "Personal Capital": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Great for beginners."
+  },
+  "Pika Labs": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Intuitive design."
+  },
+  "PocketGuard": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Excellent customer support."
+  },
+  "Power BI": {
+    "category": "Spreadsheets",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Extremely helpful."
+  },
+  "Prezi": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Too slow for my workflow."
+  },
+  "ROSS Intelligence": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 47,
+    "feedback_sample": "Poor performance on mobile."
+  },
+  "Remini": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Easy to use interface."
+  },
+  "Replit": {
+    "category": "Code editors",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Did not meet my expectations."
+  },
+  "Riverside.fm": {
+    "category": "Social audio apps",
+    "avg_rating": 4.8,
+    "avg_efficiency": 46,
+    "feedback_sample": "AI suggestions were great!"
+  },
+  "Roam Research": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Not useful for my task."
+  },
+  "Runway ML": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Great for beginners."
+  },
+  "Rytr": {
+    "category": "Writing assistants",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Easy to use interface."
+  },
+  "Sendinblue": {
+    "category": "Email clients",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Poor performance on mobile."
+  },
+  "Smallpdf": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 46,
+    "feedback_sample": "Loved AI assistance!"
+  },
+  "Soda PDF": {
+    "category": "Unknown",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Great for beginners."
+  },
+  "Sprout Social": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Too many bugs."
+  },
+  "SquadCast": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Poor performance on mobile."
+  },
+  "Stable Diffusion": {
+    "category": "AI Voice Agents",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Great for specific tasks."
+  },
+  "Strava": {
+    "category": "Fitness",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Improved my productivity."
+  },
+  "Systran": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Would like more tutorials."
+  },
+  "Tableau": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 46,
+    "feedback_sample": "Needed more customization options."
+  },
+  "Tabnine": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Pricing is too high."
+  },
+  "Tome.app": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 46,
+    "feedback_sample": "Highly recommended!"
+  },
+  "Trello": {
+    "category": "Issue tracking software",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Easy to use interface."
+  },
+  "Trint": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 42,
+    "feedback_sample": "Too slow for my workflow."
+  },
+  "Voice Memos": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Great for beginners."
+  },
+  "Wordtune": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Easy to use interface."
+  },
+  "YNAB": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Helped with collaboration."
+  },
+  "YouCam Makeup": {
+    "category": "Uncategorized",
+    "avg_rating": 4.8,
+    "avg_efficiency": 44,
+    "feedback_sample": "Needed more customization options."
+  },
+  "Zendesk": {
+    "category": "Customer Relationship Platform",
+    "avg_rating": 4.8,
+    "avg_efficiency": 43,
+    "feedback_sample": "Poor performance on mobile."
+  },
+  "Zoom": {
+    "category": "Video and Voice calling",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "Extremely helpful."
+  },
+  "iLovePDF": {
+    "category": "E-signature apps",
+    "avg_rating": 4.8,
+    "avg_efficiency": 45,
+    "feedback_sample": "I would recommend this to a friend."
+  }
+}

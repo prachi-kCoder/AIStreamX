@@ -1,8 +1,23 @@
-document.getElementById("toggleTracking").addEventListener("click", () => {
+// document.getElementById("toggleTracking").addEventListener("click", () => {
+//     chrome.storage.local.get(["trackingEnabled"], (data) => {
+//       let newState = !data.trackingEnabled;
+//       chrome.storage.local.set({ trackingEnabled: newState });
+//       alert(`Tracking ${newState ? "Enabled" : "Disabled"}`);
+//     });
+//   });
+  
+
+  document.getElementById("toggleTracking").addEventListener("click", () => {
     chrome.storage.local.get(["trackingEnabled"], (data) => {
-      let newState = !data.trackingEnabled;
+      const newState = !data.trackingEnabled;
       chrome.storage.local.set({ trackingEnabled: newState });
-      alert(`Tracking ${newState ? "Enabled" : "Disabled"}`);
+  
+      chrome.runtime.sendMessage({
+        type: "TOGGLE_TRACKING",
+        enabled: newState
+      });
+  
+      alert(`Tracking ${newState ? "Enabled ✅" : "Disabled ❌"}`);
     });
   });
   
